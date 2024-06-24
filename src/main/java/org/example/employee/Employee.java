@@ -17,18 +17,6 @@ public class Employee {
         this.age = age;
     }
 
-//    public void printInfo() {
-//        System.out.println("Employee Information:");
-//        System.out.println("Full Name: " + fullName);
-//        System.out.println("Position: " + position);
-//        System.out.println("Email: " + email);
-//        System.out.println("Phone: " + phone);
-//        System.out.println("Salary: $" + salary);
-//        System.out.println("Age: " + age);
-//        System.out.println();
-//    }
-
-
     @Override
     public String toString() {
         return "Full Name: " + fullName +
